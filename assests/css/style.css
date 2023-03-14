@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace
+}
+.navbar img{
+    width: 35px;
+    height: 35px;
+}
+.navbar{
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 0px 5px 10px 0px #000000;
+  position: fixed;
+  width: 100%;
+  background: #000000;
+  color: #000;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  height: 64px;
+  align-items: center;
+}
+.free-trial, .account{
+    padding-left: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.navbar .logo{
+    padding-top: 10px;
+    color:white;
+}
+.nav-items li{
+padding-left:20px;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+#urban{
+    background: yellow;
+    color: black;
+}
+.big-text{
+    font-size: 35px;
+    line-height: 0.5;
+}
+.middle{
+    padding-top: 100px;
+    display:grid;
+    grid-template-columns: 3fr 3fr;
+}
+.middle-left{
+    padding-left: 120px;
+}
+.middle-right img{
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+}
+.middle-right{
+    padding-left:10%;
+}
