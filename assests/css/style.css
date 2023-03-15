@@ -6,6 +6,7 @@ body{
 .navbar img{
     width: 35px;
     height: 35px;
+    padding-right: 20px;
 }
 .navbar{
   max-width: 1200px;
@@ -18,21 +19,23 @@ body{
   color: #000;
   height: 50px;
   display: flex;
-  justify-content: space-between;
   height: 64px;
   align-items: center;
 }
 .free-trial, .account{
-    padding-left: 10px;
+    font-size: 0.9em;
     border: 1px solid white;
     border-radius: 25px;
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
 }
 .navbar .logo{
     padding-top: 10px;
     color:white;
 }
 .nav-items li{
-padding-left:20px;
+padding-left:10px;
+font-size: 0.7em;
 }
 
 .nav-items{
@@ -45,8 +48,14 @@ padding-left:20px;
 .nav-items a {
     text-decoration: none;
     color: white;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding-left: 10px;
     font-weight: 500;
+  }
+ .menu{
+    display:flex;
+    flex-direction: row;
+    margin-left: 10px;
   }
 #urban{
     background: yellow;
@@ -55,20 +64,47 @@ padding-left:20px;
 .big-text{
     font-size: 35px;
     line-height: 0.5;
+    padding-left: 50px;
 }
 .middle{
     padding-top: 100px;
-    display:grid;
-    grid-template-columns: 3fr 3fr;
 }
-.middle-left{
-    padding-left: 120px;
-}
-.middle-right img{
+.middle img{
     height: 400px;
-    width: 400px;
+    width: 300px;
     border-radius: 25px;
+    float: right;
+    margin-right: 250px;
 }
-.middle-right{
-    padding-left:10%;
+.fa-space{
+    display: flex;
+    flex-direction: row;
+    padding-left: 210px;
 }
+.description{
+    line-height: 0.5;
+    padding-left: 50px;
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+.start {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 3px 5px 5px 5px;
+    margin-left: 50px;
+    background-color: lightyellow;
+    color: black;
+}
+.work{
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 3px 5px 5px 5px;
+    margin-left: 60px;
+}
+.footer{
+    background-color: white;
+}
+
