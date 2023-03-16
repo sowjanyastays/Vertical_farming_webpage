@@ -1,3 +1,4 @@
+
 body{
     background-color: black;
     color: white;
@@ -68,13 +69,14 @@ font-size: 0.7em;
 }
 .middle{
     padding-top: 100px;
+    height: 550px;
 }
 .middle img{
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 400px;
     border-radius: 25px;
     float: right;
-    margin-right: 250px;
+    margin-right: 150px;
 }
 .fa-space{
     display: flex;
@@ -90,7 +92,7 @@ font-size: 0.7em;
     display: flex;
     flex-direction: row;
 }
-.start {
+.button .start {
     border: 1px solid white;
     border-radius: 25px;
     padding: 3px 5px 5px 5px;
@@ -104,7 +106,133 @@ font-size: 0.7em;
     padding: 3px 5px 5px 5px;
     margin-left: 60px;
 }
-.footer{
+.steps{
+    display: flex;
+    flex-direction: row;
+    padding-left: 75px;
+}
+#no_steps{
+    border: 1px solid black;
+    padding:20px 100px 20px 20px;
+    margin-right: 10px ;
+    border-radius: 15px;
+    background-color: rgb(245, 245, 143);
+    color: black;
+}
+#no{
+    border: 1px solid black;
+    margin-right: 5px;
+    border-radius: 65%;
+    padding: 7px 7px 7px 7px;
+    color: white;
+    background-color: black;
+}
+ .foot{
+    height:70px;
     background-color: white;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    padding-left: 1.2em;
+    display: flex;
+    flex-direction: row;
 }
 
+.start{
+    float: left;
+    background-color: #101012;
+    color: white;
+    font-size: 13px;
+    padding:9px 9px 9px 9px; 
+    width:150px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+}
+.start p{
+    margin:0;
+}
+
+.service{
+    padding-left: 50px;
+    float: left;
+}
+
+.service p{
+    font-size: 20px;
+    color:black;
+    margin:0;
+}
+
+.action {
+    padding-left: 50px;
+    float: left;
+    padding-top: 0;
+}
+
+.wait{
+    float: left;
+    background-color:#F0FF9D;
+    color:#101012;
+    font-size: 13px;
+    padding:9px ; 
+    width:80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: #101012 solid 1px;
+}
+.join p{
+    margin:0;
+}
+.wait p{
+    margin:0;
+}
+.act p{
+    margin:0;
+}
+.contact p{
+    margin:0;
+}
+.join{
+    float: left;
+    background-color: #E6E7FB;
+    color:#101012;
+    font-size: 13px; 
+    margin:0;
+    padding: 9px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: #101012 solid 1px;
+}
+
+.act{
+    float: left;
+    background-color: #FEECB7;
+    color:#101012;
+    font-size: 13px;
+    padding: 9px;
+    width:80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: #101012 solid 1px;
+}
+
+.contact{
+    padding-left: 70px;
+    float: left;
+}
+
+.team{
+    background-color: white;
+    color:#101012;
+    font-size: 13px;
+    padding: 9px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    border: #101012 solid 1px;
+}
